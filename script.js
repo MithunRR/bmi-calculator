@@ -41,5 +41,6 @@ document.querySelector('.btn-calc').addEventListener('click', function () {
     else if (heightCm !== Number) {
         document.querySelector('.msg').textContent = 'ERROR';
         document.querySelector('.result').textContent = 'ERROR';
+        document.querySelector('.msg').style.backgroundColor = 'white';
     }
-})
+});
